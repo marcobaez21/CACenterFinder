@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CA Center Finder</title>
+</head>
+<body>
+    <h1 id="main-title">CA Center Finder</h1>
+    <div id="quiz-container">
+      <h2 id="quiz-title">Width of CA Canvas</h2>
+      <details>
+        <summary>How to find the width of the canvas</summary>
+        To find CA Width click canvas and find width on the inspector on the right
+      </details>
+      <input type="text" id="width-answer-box" placeholder="Ex: 800">
+      <h2>Leftmost x coordinate</h2>
+      <details>
+        <summary>How to find the leftmost x coordinate</summary>
+        To find objects leftmost x coordinate move object as right as possible, then get the objects x coordinate
+      </details>
+      <input type="text" id="x-answer-box" placeholder="Ex: 100">
+      <br>
+      <br>
+      <button id="submit-button" onclick="submit_button_pressed()">Submit</button>
+    <script src="quiz.js"></script>
+</body>
+</html>

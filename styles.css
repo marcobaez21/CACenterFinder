@@ -1,0 +1,15 @@
+#main-title {
+    text-align: center;
+}
+
+body {
+    padding: 10px;
+}
+
+#quiz-container{
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 0 0 5px grey;
+    width: 800px;
+    margin: 0 auto;
+}
